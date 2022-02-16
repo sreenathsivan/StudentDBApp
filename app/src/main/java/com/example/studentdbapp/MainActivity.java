@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(),SearchStudentActivity.class);
+                startActivity(i);
 
             }
         });
